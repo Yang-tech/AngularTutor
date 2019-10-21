@@ -1,0 +1,103 @@
+.redBackground{
+  background-color: red;
+  color: yellow;
+}
+.customWidth{
+  background-color: blue;
+
+  max-width: 600px;
+  height: 600px;
+}
+
+.outerContainer{
+  border-bottom: black solid 2px;
+  border-top: black solid 2px;
+  border-left: black solid 2px;
+  border-right: black solid 2px;
+  width: 800px;
+  height: 600px;
+}
+
+.test2{
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.innerContainerAbsolute{
+  position: absolute;
+  border-bottom: red solid 2px;
+  border-top: red solid 2px;
+  border-left: red solid 2px;
+  border-right: red solid 2px;
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 300px;
+  height: 200px;
+}
+
+.innerContainerRelative{
+  position: relative;
+  border-bottom: yellow solid 2px;
+  border-top: yellow solid 2px;
+  border-left: yellow solid 2px;
+  border-right: yellow solid 2px;
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 300px;
+  height: 200px;
+}
+
+.container-1 {
+  display: block;
+  border-bottom: black solid 2px;
+  border-top: black solid 2px;
+  border-left: black solid 2px;
+  border-right: black solid 2px;
+  word-wrap: break-word;
+  word-wrap: break-all;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.container{
+  /*position: relative;*/
+}
+
+nav{
+  border: #CC0066 solid 2px;
+  /*position: absolute;*/
+  left: 0px;
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+li{
+  color: #CC0066;
+}
+
+section{
+  border: #FFCC00 solid 2px;
+  margin-left: 200px;
+  vertical-align: top;
+  height: 50px;
+}
+
+.column{
+  height: 100px;
+}
+footer{
+  border: #009966 solid 2px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 200px;
+  background-color: white;
+  width: 100%;
+}
+
+body{
+  margin-bottom: 120px;
+}
+
